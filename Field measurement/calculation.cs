@@ -16,6 +16,11 @@ namespace Field_measurement
             Y = pY;
         }//Constructor method
     }
+    public struct circle
+    {
+        public double r;
+        public coordinate c;
+    }//top left corner
     class calculation
     {
         
