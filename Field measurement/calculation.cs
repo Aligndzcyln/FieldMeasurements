@@ -23,6 +23,12 @@ namespace Field_measurement
     }//top left corner
     class calculation
     {
-        
+        public static coordinate centre_of_Circumference(coordinate topLeft,double radius)
+        {
+            coordinate centre;
+            centre.X = (int)(topLeft.X + radius);
+            centre.Y = (int)(topLeft.Y + radius);
+            return centre;
+        }
     }
 }
