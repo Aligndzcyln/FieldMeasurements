@@ -45,6 +45,9 @@ namespace Field_measurement
         {
             return width * height;
         }
-        
+        public static double rectangle_circumference(double width,double height)
+        {
+            return (width * height) * 2;
+        }
     }
 }
