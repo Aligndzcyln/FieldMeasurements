@@ -49,5 +49,9 @@ namespace Field_measurement
         {
             return (width * height) * 2;
         }
+        public static double circle_circumference(double r)
+        {
+            return Math.PI * r * 2;
+        }
     }
 }
