@@ -21,6 +21,11 @@ namespace Field_measurement
         public double r;
         public coordinate c;
     }//top left corner
+    public struct rectangle
+    {
+        public double height, width;
+        public coordinate c;
+    }
     class calculation
     {
         public static coordinate centre_of_Circumference(coordinate topLeft,double radius)
