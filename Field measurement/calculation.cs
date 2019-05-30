@@ -30,5 +30,12 @@ namespace Field_measurement
             centre.Y = (int)(topLeft.Y + radius);
             return centre;
         }
+        public static coordinate centre_of_rectangle(coordinate topLeft,double height,double width)
+        {
+            coordinate centre;
+            centre.X = (int)(topLeft.X + (width / 2));
+            centre.Y = (int)(topLeft.Y + (height) / 2);
+            return centre;
+        }
     }
 }
