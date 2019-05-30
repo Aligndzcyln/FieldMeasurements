@@ -37,5 +37,10 @@ namespace Field_measurement
             centre.Y = (int)(topLeft.Y + (height) / 2);
             return centre;
         }
+        public static double circle_area(double r)
+        {
+            return Math.PI * Math.Pow(r, 2);
+        }
+        
     }
 }
