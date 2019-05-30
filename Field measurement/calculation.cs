@@ -41,6 +41,10 @@ namespace Field_measurement
         {
             return Math.PI * Math.Pow(r, 2);
         }
+        public static double rectangle_area(double width,double height)
+        {
+            return width * height;
+        }
         
     }
 }
