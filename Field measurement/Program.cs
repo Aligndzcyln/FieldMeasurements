@@ -19,6 +19,11 @@ namespace Field_measurement
             rectangle.c = topLeft;
             rectangle.height = 30;
             rectangle.height = 50;
+            Console.WriteLine("circle area: " + calculation.circle_area(circle.r));
+            Console.WriteLine("circle circumference: " + calculation.circle_circumference(circle.r));
+            Console.WriteLine("rectangle circumference: " + calculation.rectangle_circumference(rectangle.height,rectangle.width));
+            Console.WriteLine("rectangle area: " + calculation.rectangle_area(rectangle.height, rectangle.width));
+
 
         }
     }
